@@ -4,6 +4,9 @@ h1 {
   font-size: 300%;
   padding: 20px;
   }
+  body{
+     background-color:lightgreen;
+  }
   p  {
     
     font-family: Times New Roman;
@@ -27,6 +30,9 @@ h1 {
     padding: 15px;
     text-align: center;
   }
+  .img{
+      margin-left:10px;
+  }
   table#t01 tr:nth-child(even) {
     background-color: #eee;
   }
@@ -37,3 +43,17 @@ h1 {
     background-color: black;
     color: white;
   }
+form{
+    padding : 20px;
+    font-family: Times New Roman;
+}
+.one   {
+    padding:0px 200px 0px 300px ;}
+.pic{
+    padding:0px 0px 0px 500px ;
+}
+@media only screen and (max-width: 600px){
+  body{
+    background-color: lightblue;
+  }
+}
