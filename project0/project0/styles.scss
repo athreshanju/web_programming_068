@@ -12,15 +12,15 @@ h2{
 $mysize : 20px;             //scss variables
 $myfont : Times New Roman;
 p  {
-    font{
-    font-family: $myfont;         
+    font : {
+    family: $myfont;         
     size: 160%;
     }
     padding: $mysize;
   }
   p.av  {
-    font{                           //scss nesting
-    font-family: $myfont;
+    font : {                           //scss nesting
+    family: $myfont;
     size: 160%;
     }
     padding: $mysize;
@@ -34,7 +34,10 @@ p  {
   }
   th, td {
     padding: 15px;
-    text-align: center;
+    text : {
+
+    
+    align: center;}
   }
   .img{
       margin-left:10px;
