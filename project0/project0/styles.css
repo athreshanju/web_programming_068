@@ -1,0 +1,80 @@
+h1, h2 {
+  color: red;
+  font-family: Calibri;
+  font-size: 300%;
+  padding: 20px;
+}
+
+h2 {
+  color: purple;
+  font-family: Arial;
+}
+
+p {
+  padding: 20px;
+}
+
+p font {
+  font-family: Times New Roman;
+  size: 160%;
+}
+
+p.av {
+  padding: 20px;
+}
+
+p.av font {
+  font-family: Times New Roman;
+  size: 160%;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.img {
+  margin-left: 10px;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+
+form {
+  padding: 20px;
+  font-family: Times New Roman;
+}
+
+.one {
+  padding: 0px 200px 0px 300px;
+}
+
+.pic {
+  padding: 0px 0px 0px 500px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,27 +1,31 @@
-/* h1 {
+h1{
     color: red;
     font-family: Calibri;
-  font-size: 300%;
-  padding: 20px;
-  }
-h2 {
-     color: purple;
-     font-family: Arial;
     font-size: 300%;
-padding: 20px;} */
-  /* p  {
-    
-    font-family: Times New Roman;
-    font-size: 160%;
-    padding: 20px;
+  padding: 20px;
+}
+h2{
+    @extend h1;                        //scss inheritance
+    color: purple;
+     font-family: Arial; 
+}
+$mysize : 20px;             //scss variables
+$myfont : Times New Roman;
+p  {
+    font{
+    font-family: $myfont;         
+    size: 160%;
+    }
+    padding: $mysize;
   }
   p.av  {
-    
-    font-family: Times New Roman;
-    font-size: 160%;
-    padding: 20px;
-  } */
-  /* table {
+    font{                           //scss nesting
+    font-family: $myfont;
+    size: 160%;
+    }
+    padding: $mysize;
+  }
+  table {
     width:100%;
   }
   table, th, td {
@@ -44,12 +48,12 @@ padding: 20px;} */
   table#t01 th {
     background-color: black;
     color: white;
-  } */
-/* form{
+  }
+  form{
     padding : 20px;
-    font-family: Times New Roman;
-} */
-/* .one   {
+    font-family: $myfont;
+}
+.one   {
     padding:0px 200px 0px 300px ;}
 .pic{
     padding:0px 0px 0px 500px ;
@@ -58,4 +62,4 @@ padding: 20px;} */
   body{
     background-color: lightblue;
   }
-} */
+}
