@@ -2,6 +2,7 @@ h1, h2 {
   color: red;
   font-family: Calibri;
   font-size: 300%;
+  font-weight: bold;
   padding: 20px;
 }
 
@@ -13,12 +14,14 @@ h2 {
 p {
   font-family: Times New Roman;
   font-size: 160%;
+  font-weight: 900;
   padding: 20px;
 }
 
 p.av {
   font-family: Times New Roman;
   font-size: 160%;
+  font-weight: 900;
   padding: 20px;
 }
 
@@ -70,5 +73,22 @@ form {
   body {
     background-color: lightblue;
   }
+}
+
+body {
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  font-family: Times New Roman;
+  font-weight: 900;
+}
+
+ol {
+  font-family: Times New Roman;
+  font-weight: 900;
 }
 /*# sourceMappingURL=styles.css.map */

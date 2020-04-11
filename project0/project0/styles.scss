@@ -2,6 +2,7 @@ h1{
     color: red;
     font-family: Calibri;
     font-size: 300%;
+    font-weight:bold;
   padding: 20px;
 }
 h2{
@@ -15,6 +16,7 @@ p  {
     font : {
     family: $myfont;         
     size: 160%;
+    weight: 900;
     }
     padding: $mysize;
   }
@@ -22,6 +24,7 @@ p  {
     font : {                           //scss nesting
     family: $myfont;
     size: 160%;
+    weight: 900;
     }
     padding: $mysize;
   }
@@ -65,4 +68,19 @@ p  {
   body{
     background-color: lightblue;
   }
+}
+body{
+    background-position: center;
+    height : 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+ul{
+    
+        font-family : $myfont;
+        font-weight : 900;
+    }
+ol{
+    font-family : $myfont;
+    font-weight : 900;
 }
