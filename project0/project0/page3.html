@@ -3,9 +3,9 @@
         <title>Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        
         <link rel="stylesheet" href="styles.css">
     </head>
     <body style = "background-color: lightgreen;">
@@ -34,20 +34,24 @@
         
         <h1>Feedback</h1><br><br>
         <p>Write to us if you have any queries or suggestions regarding any page/content published</p><br><br>
-        <form action="/action_page.php">
-            <label for="fname">Your Name:</label><br>
-            <input type="text" id="fname" name="fname" value=" "><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value=" "><br>
-            <label for="mn">Mobile Number:</label><br>
-            <input type="text" id="mn" name="mn" value=" "><br>
-            <label for="subj">Subject:</label><br>
-            <input type="text" id="subj" name="subj" value=" "><br>
-            <label for="msg">Message:</label><br>
-            <input type="text" id="msg" name="msg" value=" "><br><br>
-            <label for="other"></label><br><br>
-            <input type="submit" value="Submit">
-        </form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control" id="staticEmail" placeholder="email">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="Message" class="col-sm-2 col-form-label">Message</label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control" id="staticmsg" placeholder="write your message here">
+          </div>
+        </div>
         <h1>Office contact Details</h1>
         <p>
             Akuate Internet services pvt.Ltd.<br>
